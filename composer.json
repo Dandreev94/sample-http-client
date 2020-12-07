@@ -1,0 +1,25 @@
+{
+    "name": "denis-andreev/abstract-client",
+    "description": "This is test client of abstract service",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Denis Andreev",
+            "email": "yaonline94@mail.ru"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "php": ">=7.3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "AwesomeServiceClient\\": "src/"
+        }
+    }
+}
